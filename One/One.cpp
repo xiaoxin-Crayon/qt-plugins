@@ -31,6 +31,8 @@ int One::test()
 {
 	//qDebug() << "num:" << num;
 	qDebug() << "trueThread:" << QThread::currentThread();
+
+
 	int count = 1;
 	//qDebug() << "count:" << count;
 	QThread::msleep(100);
